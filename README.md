@@ -54,7 +54,7 @@ Esta sección detalla los pasos para crear **dos usuarios** con diferentes nivel
 ### Requisitos Previos
 1. Haber desplegado los servicios con Docker Compose.
 2. Acceder a la interfaz web de phpMyAdmin en: `http://localhost:9090`.
-3. Iniciar sesión como usuario administrador ´root´ (usuario con privilegios totales configurado en tu archivo `entorno.env` *MARIADB_ROOT_PASSWORD*).
+3. Iniciar sesión como usuario administrador `root` (usuario con privilegios totales configurado en tu archivo `entorno.env`).
 
 
 
