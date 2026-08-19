@@ -16,12 +16,11 @@ services:
     image: phpmyadmin:latest
     ports:
       - "9090:80"
-    depends_on:
     restart: always
+    depends_on:
       - db
     env_file: 
-      - entorno.env
+      - phpmyadmin.env
+    restart: always
 volumes:
   db_data:
-  # docker compose -f serviciosdb.yml up -d
-  # docker compose -f  down
