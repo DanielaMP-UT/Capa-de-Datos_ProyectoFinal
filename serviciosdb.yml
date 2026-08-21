@@ -16,7 +16,6 @@ services:
     image: phpmyadmin:latest
     ports:
       - "9090:80"
-    restart: always
     depends_on:
       - db
     env_file: 
